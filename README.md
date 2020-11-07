@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/310220554.svg)](https://zenodo.org/badge/latestdoi/310220554)
+
 # Validity Check
 A simple app to examine attention checks in survey data.
 
