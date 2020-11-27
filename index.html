@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Validitycheck by imnotamember</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Validitycheck</h1>
+        <p class="header">A simple app to examine attention checks in survey data.</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/imnotamember/ValidityCheck/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/imnotamember/ValidityCheck/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/imnotamember/ValidityCheck">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/imnotamember">imnotamember</a></p>
+
+
+      </header>
+      <section>
+        <p><a href="https://zenodo.org/badge/latestdoi/310220554"><img src="https://zenodo.org/badge/310220554.svg" alt="DOI"></a></p>
+<h1>
+<a id="validity-check" class="anchor" href="#validity-check" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Validity Check</h1>
+<p>A simple app to examine attention checks in survey data.</p>
+<h2>
+<a id="how-to-use-validity-check" class="anchor" href="#how-to-use-validity-check" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use Validity Check</h2>
+<p>Validity Check was designed for convenient access to attention checking questions in survey data. In order to gain insights into your attention checks:</p>
+<ol>
+<li>Run the installer
+<ol>
+<li>For Mac, drag the app into your Applications folder when the popup window appears (after opening "ValidityCheck.dmg").</li>
+<li>
+<em>Coming soon</em>: Windows and Linux apps.</li>
+</ol>
+</li>
+<li>Run Validity Check from your installation location.</li>
+<li>Open a data file (these must be CSV files, if in another format convert to CSV first).</li>
+<li>Select any rows you need to delete (especially common with Qualtrics datasets).
+<ol>
+<li>If not necessary, feel free to press the "Skip" button to bypass this option.</li>
+</ol>
+</li>
+<li>Select the row that has the column headers you will identify your attention-checking questions with.</li>
+<li>Select the column holding your participants unique identification (typically a coded identifier and not personal information).</li>
+<li>Select the column that holds any date or time information you would like to use to sort responses by (useful for realtime analysis of data when deciding whether the most recent participants were paying attention).
+<ol>
+<li>If not necessary, feel free to press the "Skip" button to bypass this option.</li>
+</ol>
+</li>
+<li>Select the questions in your data that are attention checks (by header, selected in step <code>5.</code>).</li>
+<li>Select the correct response to your attention check questions.
+<ol>
+<li>These are listed as drop-down menus of all the responses to each question in your dataset.</li>
+<li>If you don't see the correct responses listed, type your correct response in and it will be used instead of what's listed.</li>
+</ol>
+</li>
+<li>The final report will be displayed, with color-coded cells to dstinguish correct/incorrect responses for each participant (row) with the option to sort by column (by clicking the column headers).</li>
+<li>These settings can be saved and reused by clicking the "Save Validity Settings" button, and later reopening through the "Open Validity Settings" section of the main window.
+<ol>
+<li>The settings are saved to a <code>.json</code> file, which can be manually edited if knowledgeable about this format and your dataset.</li>
+</ol>
+</li>
+<li>This report can be saved as a CSV data file by clicking the "Export Validity Report" button.</li>
+</ol>
+<p>This is a beta release, so feel free to send me questions at <a href="mailto:joshua.e.zosky@gmail.com">joshua.e.zosky@gmail.com</a>.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
