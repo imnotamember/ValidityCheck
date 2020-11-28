@@ -31,7 +31,7 @@ github_username:  imnotamember
 
 # Build settings
 # theme: minima
-remote_theme: chrisbobbe/jekyll-theme-prologue
+remote_theme: imnotamember/jekyll-theme-prologue
 plugins:
   - jekyll-feed
 
